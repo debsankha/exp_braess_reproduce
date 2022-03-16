@@ -53,8 +53,10 @@ def _single_iteration(network_type, seed):
     # we will also lose information of the node labels.
     df = pd.DataFrame([data for node, data in res.items()], index=None)
     df.loc[:, "seed"] = seed
-
-    tmpfile = Path(f"{str(uuid.uuid4())}.csv")
+    
+    data_dir = Path(".")/"data/tmp"
+    data_dir.mkdir(parents=True, exist_ok=True)
+    tmpfile = data_dir / Path(f"{str(uuid.uuid4())}.csv")
     #df.to_parquet(tmpfile, engine='fastparquet')
     df.to_csv(tmpfile)
     return tmpfile
