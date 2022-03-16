@@ -1,0 +1,15 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: >-
+  Code to Reproduce Results on Braes Paradox in
+  Electrical Power Grid Models
+message: Please cite this software using these metadata.
+type: software
+authors:
+  - given-names: Debsankha
+    family-names: Manik
+    email: dmanik@debsankha.net
+    affiliation: Technische Universität Dresden
+
