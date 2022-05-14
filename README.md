@@ -1,3 +1,6 @@
+
+[![Zenodo](https://zenodo.org/badge/469394942.svg)]()
+
 Code to reproduce the article on Braes Paradox in Electrical Power Grid Models
 ------------------------------------------------------------------------------
 
