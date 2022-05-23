@@ -1,3 +1,3 @@
 [submodule "braess_detection"]
 	path = braess_detection
-	url = https://github.com/debsankha/braess_detection.git
+	url = git@github.com:debsankha/braess_detection.git
