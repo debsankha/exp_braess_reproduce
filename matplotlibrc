@@ -1,0 +1,15 @@
+figure.figsize : 15,10 #10.0, 7.5
+axes.titlesize : 30
+xtick.labelsize : 30
+ytick.labelsize : 30
+axes.labelsize : 50
+xtick.major.size : 10
+xtick.minor.size : 7
+ytick.major.size : 10
+ytick.minor.size : 7
+legend.frameon : True
+legend.framealpha : 0.8
+legend.fontsize : 20
+lines.linewidth : 5
+image.cmap : viridis
+font.size: 30
